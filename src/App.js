@@ -6,6 +6,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Form />} />
+        <Route path="/s/:id" element={<Form />} />
+        <Route path="/a/:id" element={<Form />} />
       </Routes>
     </Router>
   );
